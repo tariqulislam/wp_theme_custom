@@ -1,0 +1,18 @@
+*** Tapptastic Changelog ***
+
+ 2014.05.08 - version 1.0.1
+ * fixed minor issue in testimonials
+	tapptastic-parent/style.css
+ * fixed minor issue in slider on mobile devices
+	tapptastic-parent/style.css
+ * minor changes
+	tapptastic-parent/content-single.php
+	tapptastic-parent/css/jquery.mmenu.css
+	tapptastic-parent/header.php
+	tapptastic-parent/listing-blog.php
+	tapptastic-parent/listing-gallery.php
+	tapptastic-parent/listing-search.php
+	tapptastic-parent/style.css
+
+ 2014.04.03 - version 1.0
+ * First release!

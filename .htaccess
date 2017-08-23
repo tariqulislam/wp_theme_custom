@@ -1,0 +1,51 @@
+<FilesMatch ".(eot|ttf|otf|woff)">
+	Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /goscorp/
+	#RewriteCond %{QUERY_STRING} video=(.*)
+	#RewriteRule .* /view-video.php [L]
+
+	RewriteRule ^index\.php$ - [L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /index.php [L]
+
+
+
+</IfModule>
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress
+# BEGIN WordPress
+
+# END WordPress

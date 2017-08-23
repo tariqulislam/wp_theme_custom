@@ -1,0 +1,12 @@
+.bx-wrapper .bx-viewport .bxslider li{
+	margin: 0;
+	paddinng: 0;
+}
+.bx-wrapper .bx-viewport{
+	background-color: transparent;
+	border: medium none;
+	box-shadow: none;
+}
+.bx-wrapper .bx-viewport .bxslider li p{
+	color: #ffffff;
+}

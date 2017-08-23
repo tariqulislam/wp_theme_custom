@@ -1,0 +1,138 @@
+.tfuse_captcha_reload{
+    background-image:url(../images/reload.png) !important;
+    background-repeat: no-repeat !important;
+    height: 18px !important;
+    margin-top: 15px !important;
+    max-width: 16px !important;
+    vertical-align: top;
+    background-color: transparent !important;
+    border:none !important;
+    width: 20px;
+}
+
+#sending{
+    margin: 10px 5px;
+}
+
+
+
+/* preview */
+#TB_ajaxContent .contact-form-name,#TB_ajaxContent .contact-form-text{margin-top:15px;}
+
+#TB_ajaxContent #header_message {color:#fff}
+
+#TB_ajaxContent .col-sm-8 , #TB_ajaxContent .col-sm-4 {
+    width:48%;
+}
+
+#TB_ajaxContent .col-sm-8 {
+    float:left;
+}
+
+ #TB_ajaxContent .col-sm-4 
+ {
+     float:right;
+ }
+ 
+ #TB_ajaxContent .contact-form-name input:not([type]),
+#TB_ajaxContent .contact-form-name input[type="email"],
+#TB_ajaxContent  .contact-form-text textarea,
+#TB_ajaxContent .contact-form-name input[type="text"], #TB_ajaxContent .contact-form-name select{
+height: 52px;
+color: #8d8d8d;
+background: #000 !important;
+border: 0;
+border-bottom: 1px solid rgba(255,255,255,.4);
+padding: 0 18px;
+font-weight: bold;
+font-size: 15px;
+width: 100%;
+max-width: 100%;
+}
+
+#TB_ajaxContent .contact-form-text textarea {
+height: 186px;
+}
+
+#TB_ajaxContent .contact-form-name.radio, #TB_ajaxContent .contact-form-name.checkbox {
+line-height: 25px;
+margin-bottom: 20px;
+}
+
+#TB_ajaxContent .contact-form-name input[type="radio"]{
+margin-top: 3px;
+}
+
+#TB_ajaxContent .contact-form-name input[type="checkbox"] {
+margin-top: 6px;
+}
+
+#TB_ajaxContent .btn {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.428571429;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+
+#TB_ajaxContent .btn {
+display: inline-block;
+font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+font-size: 17px;
+font-weight: 600;
+border: 2px solid #fff;
+background: #fff;
+border-radius: 0;
+padding: 0 24px;
+height: 62px;
+line-height: 56px;
+transition: all .1s linear;
+-moz-transition: all .1s linear;
+-webkit-transition: all .1s linear;
+cursor: pointer;
+}
+
+#TB_ajaxContent .btn-small {
+height: 52px;
+line-height: 46px;
+font-size: 13px;
+padding: 0 38px;
+}
+
+#TB_ajaxContent .btn-transparent,#TB_ajaxContent  .btn-transparent:focus {
+background: transparent;
+color: #fff;
+}
+
+#TB_ajaxContent .contact-form .form-submit .btn {
+display: block;
+padding: 0 5px;
+margin-top:10px;
+}
+
+#TB_ajaxContent .btn input {
+background: transparent;
+border: 0;
+box-shadow: 0;
+height: 100%;
+line-height: 100%;
+text-transform: uppercase;
+}
+
+#TB_ajaxContent .lb-wrap{background: #222426;}
+
+#TB_ajaxContent .contact-form-name label {color: #8d8d8d;}

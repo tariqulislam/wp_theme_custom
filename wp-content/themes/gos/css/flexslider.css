@@ -1,0 +1,191 @@
+.widget .flexslider {
+    float: left;
+    width: 100%;
+}
+.flexslider figure, .flexslider article {
+    margin-bottom: 0 !important;
+}
+.flexslider figure {
+    float: left;
+    margin-bottom: 0 !important;
+    width: 100%;
+}
+.flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus {
+    outline: medium none;
+}
+.slides, .flex-control-nav, .flex-direction-nav {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.flexslider {
+    float: left;
+    margin: 0 0 20px;
+    padding: 0;
+    width: 100%;
+}
+.flexslider .slides > li {
+    display: none;
+}
+.flexslider .slides img {
+    display: block;
+    width: 100%;
+}
+.flex-pauseplay span {
+    text-transform: capitalize;
+}
+.slides:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+html[xmlns] .slides {
+    display: block;
+}
+* html .slides {
+    height: 1%;
+}
+.no-js .slides > li:first-child {
+    display: block;
+}
+.flexslider {
+    position: relative;
+}
+.flex-viewport {
+    max-height: 2000px;
+    transition: all 1s ease 0s;
+}
+.loading .flex-viewport {
+    max-height: 300px;
+}
+.flexslider .slides {
+}
+.carousel li {
+    margin-right: 5px;
+}
+.flex-direction-nav {
+    display: none;
+    float: left;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    z-index: 999;
+}
+.flex-direction-nav li {
+    display: inline-block;
+    margin: 0 6px;
+    vertical-align: top;
+}
+.flex-direction-nav li a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    box-shadow: none;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    height: 32px;
+    line-height: 32px;
+    margin-top: -16px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transition: all 0.1s linear 0s;
+    width: 32px;
+}
+.flex-direction-nav li a.flex-prev {
+    left: 0;
+}
+.flex-direction-nav li a.flex-next {
+    right: 0;
+}
+article .flexslider .flex-direction-nav li {
+    color: #fff;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px #000;
+}
+article .flexslider .flex-direction-nav li a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    box-shadow: none;
+    color: #fff;
+}
+article .flexslider .flex-direction-nav li a em {
+    color: #fff;
+}
+.count-slide {
+    line-height: 28px;
+}
+.slide-number {
+    font-size: 20px;
+    font-weight: 600;
+}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
+    opacity: 1;
+}
+.flex-direction-nav .flex-disabled {
+    cursor: default;
+    opacity: 0.3 !important;
+}
+.flex-control-nav {
+    bottom: -40px;
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.flex-control-nav li {
+    display: inline-block;
+    margin: 0 3px;
+}
+.flex-control-paging li a {
+    background: none repeat scroll 0 0 #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3) inset;
+    cursor: pointer;
+    display: block;
+    height: 11px;
+    text-indent: -9999px;
+    width: 11px;
+}
+.flex-control-paging li a:hover {
+}
+.flex-control-paging li a.flex-active {
+    cursor: default;
+}
+.flex-control-thumbs {
+    margin: 5px 0 0;
+    overflow: hidden;
+    position: static;
+}
+.flex-control-thumbs li {
+    float: left;
+    margin: 0;
+    width: 25%;
+}
+.flex-control-thumbs img {
+    cursor: pointer;
+    display: block;
+    opacity: 0.7;
+    width: 100%;
+}
+.flex-control-thumbs img:hover {
+    opacity: 1;
+}
+.flex-control-thumbs .flex-active {
+    cursor: default;
+    opacity: 1;
+}
+@media screen and (max-width: 860px) {
+    .flex-direction-nav .flex-prev {
+        left: 0;
+        opacity: 1;
+    }
+    .flex-direction-nav .flex-next {
+        opacity: 1;
+        right: 0;
+    }
+}

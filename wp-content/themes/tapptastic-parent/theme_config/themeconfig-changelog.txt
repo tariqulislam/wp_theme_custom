@@ -1,0 +1,30 @@
+*** Theme Config Changelog ***
+
+ 2014.09.26 - version 1.0.2
+ * minor changes
+	tapptastic-parent/theme_config/options/admin_options.php
+	tapptastic-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+	tapptastic-parent/theme_config/config/theme_config.php
+	tapptastic-parent/theme_config/extensions/slider/designs/home/options/home_options.php
+	tapptastic-parent/theme_config/extensions/slider/designs/home/template.php
+	tapptastic-parent/theme_config/widgets/TFuse_Widget_Newsletter.php
+
+ 2014.06.08 - version 1.0.1
+ * fixed minor issue in logo
+	tapptastic-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * fixed minor issue in testimonials
+	tapptastic-parent/theme_config/extensions/shortcodes/shortcodes/testimonials.php
+ * fixed minor issue in slider on mobile devices
+	tapptastic-parent/theme_config/extensions/slider/designs/home/template.php
+ * minor changes
+	tapptastic-parent/theme_config/extensions/shortcodes/shortcodes/contactform.php
+	tapptastic-parent/theme_config/theme_includes/THEME_SCRIPTS_STYLES.php
+	tapptastic-parent/theme_config/config/theme_config.php
+	tapptastic-parent/theme_config/extensions/shortcodes/static/images/search.jpg
+	tapptastic-parent/theme_config/extensions/sidebars/configurations/base_cfg.php
+	tapptastic-parent/theme_config/extensions/sidebars/includes/sidebars_init.php
+	tapptastic-parent/theme_config/theme_includes/SHOTCODE_POSTS.php
+	tapptastic-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+
+ 2014.04.03 - version 1.0
+ * First release!
